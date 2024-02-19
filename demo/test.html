@@ -43,17 +43,7 @@
 			</div>
 			<br><br><br>
 			<h2>Manual Tests</h2>
-			<p>See $Window.js comment <i>"Test cases where it should refocus the last focused control in the window"</i> for many manual tests.</p>
-			<p>In Triggering applet, clicking Focus Now button should focus a window.</p>
-			<p>Test that menus, submenus, and child windows close, when closing a window (on a delay).</p>
-			<p>Trigger pointerdown/mousedown then click off the main window quickly, and it should be refocused.</p>
-			<p>(For click event, I'm not sure but I think it shouldn't focus, because you may want to trigger an action by calling `click()` and that shouldn't refocus; does `click()` generate a bubbling click event though?)</p>
-			<p>Test that focus is shown on both the tool window and the parent window when focus lies within the tool window.</p>
-			<p>Test that controls in nested iframes get refocused when refocusing a window. Note that the innermost button is unstyled and may not get a focus ring unless you then use the keyboard.</p>
-			<p>Tool windows probably shouldn't focus controls automatically on click, they're mainly supposed to keep the parent focused. @TODO?</p>
-			<p>Clicking title bar button should not show a focus ring, or store it as the last focused control.
-				It should keep focus on whatever was focused before the title bar button was clicked.</p>
-			<p>Clicking in a window with no focusable controls should focus the window-content itself.</p>
+
 			<br><br><br>
 		</main>
 		<hr>
